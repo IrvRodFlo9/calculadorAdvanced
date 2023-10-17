@@ -1,2 +1,2 @@
-export const buttons=["sin","cos","tan","ln","log","x<sup>2</sup>","x<sup>-1</sup>","Ans","(",")","Del","Clear","7","8","9","+","4","5","6","x","1","2","3","/","0",".","=","-"];
+export const buttons=["sin","cos","tan","x<sup>-1</sup>","ln","log","Del","Clear","(",")","x<sup>2</sup>","x","7","8","9","&divide","4","5","6","+","1","2","3","-","0",".","=","Ans"];export const changesInputs={sin:"sin( ",tan:"tan( ",cos:"cos( ",x:" x ","÷":" ÷ ","-":" - ","+":" + ",log:"log( ",ln:"ln( ","(":" ( ",")":" ) "};export const changesExpression={"sin(":"Math.sin((Math.PI/180)*","cos(":"Math.cos(((Math.PI/180)*","tan(":"Math.tan(((Math.PI/180)*",x:"*","÷":"/"};
 //# sourceMappingURL=data.js.map
