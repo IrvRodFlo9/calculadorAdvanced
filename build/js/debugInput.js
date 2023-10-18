@@ -1,2 +1,2 @@
-import{changesInputs}from"./data.js";const debugInput=t=>{let n="";return n=t in changesInputs?changesInputs[t]:t,n};export default debugInput;
+import{changesInputs}from"./data.js";const debugInput=t=>changesInputs[t]||t;export default debugInput;
 //# sourceMappingURL=debugInput.js.map

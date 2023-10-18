@@ -1,2 +1,2 @@
-const clear=e=>{e.lScreen.textContent="",e.lScreen.innerHTML="",e.hScreen.textContent="",e.hScreen.innerHTML="",e.displayResult=!1,e.displayError=!1};export default clear;
+const clear=e=>{const{lScreen:t,hScreen:n}=e;t.textContent="",t.innerHTML="",n.textContent="",n.innerHTML="",e.displayResult=!1,e.displayError=!1};export default clear;
 //# sourceMappingURL=clear.js.map
