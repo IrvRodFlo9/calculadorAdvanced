@@ -1,2 +1,2 @@
-const display=(t,e)=>{t.textContent=e};export default display;
+const display=(a,d)=>{a.innerHTML=d};export default display;
 //# sourceMappingURL=display.js.map
